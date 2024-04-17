@@ -7,6 +7,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 
 *{
     padding: 0;
@@ -26,7 +28,7 @@ a{
 }
 
 body{
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     background-color: #e3e1dd;
 }
@@ -39,6 +41,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    font-size: 17px;
 }
 
 .nav-logo{
@@ -56,7 +59,7 @@ nav{
     position: relative;
     padding-bottom: 0.75rem;
     color: #20343f;
-    font-size: medium;
+    font-weight: 700;
 }
 
 .link a::after{
@@ -82,6 +85,7 @@ nav{
     border: none;
     padding: 0;
     cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
   }
 .front {
     display: block;
@@ -90,6 +94,8 @@ nav{
     font-size: 1.25rem;
     background: #1d4ed8;
     color: white;
+    font-size: 20px;
+    font-weight: 700;
     transform: translateY(-7px);
 }
 
@@ -165,8 +171,7 @@ header{
 }
 
 header .content h1 span{
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1.5px #1d4ed8;
+    color: #1d4ed8;
 }
 
 .social{
@@ -279,4 +284,11 @@ header .content h1 span{
     text-align: center;
     margin-bottom: 50px;
 
+}
+
+footer{
+    text-align: center;
+    color: #20343f;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
